@@ -35,4 +35,4 @@ jobs:
 
     - name: Test static.py with pytest
       run: |
-        pytest -q --disable-warnings --maxfail=1
+        pytest -q --disable-warnings --maxfail=2
